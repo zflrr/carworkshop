@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+}
+
+body
+{
+	background-color:#ececec;
+}
+
+.topnav
+{
+	background-color: white;
+	overflow: hidden;
+}
+
+.topnav .topnav-left
+{
+	float:left;
+}
+
+.topnav .topnav-left img
+{
+	margin:10px;
+	width: 20%;
+	height: 20%;
+}
+
+.topnav .topnav-right a {
+	float: right;
+	margin:10px;
+	color : black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav .topnav-right .user img {
+	float: right;
+	text-decoration: none;
+	
+}
+
+.overview h2
+{
+	color: #607d8b;
+	font-weight: 600;
+	font-size: 1.5em;
+	margin-left: 20px;
+	display: inline-block;
+	letter-spacing: 1px;
+}
+
+
+.overview .inside
+{
+  margin-top : 10px;
+  margin-left: 20px;
+  background-color:white;
+  width:450px;
+  height:500px;
+  box-shadow:5px 5px grey;
+  border-radius: 10px;
+}
+
+.overview .inside .title p
+
+{
+	color: grey;
+	font-weight: 300;
+	padding: 20px 16px;
+}
+
+.overview .inside .table 
+{
+	margin-left:15px;
+}
+
+.overview .inside .table a
+{
+	text-decoration: none;
+	
+}
+
+.overview .msg
+{
+	background: #F2DEDE;
+	color: #A94442;
+	padding: 10px;
+	width:30%;
+	border-radius: 5px;
+	margin-left : 20px;
+}	
+
+.overview .inside .circle
+{
+  margin:10px;
+  height: 200px;
+  width: 200px;
+  background-color: #555;
+  border-radius: 50%;;
+	
+}
+
+.overview .inside .inputBx input[type="submit"]
+{
+	background-color : #FDE992;
+	border: none;
+	padding: 12px 28px;
+	border-radius: 8px;
+	color: grey;
+}
+
+
+
+
+/* Project Register part */
+
+.register h2
+{
+	color: #607d8b;
+	font-weight: 600;
+	font-size: 1.5em;
+	margin-left: 20px;
+	display: inline-block;
+	letter-spacing: 1px;
+}
+
+.register .card
+{
+  margin-top : 10px;
+  margin: 20px;
+  background-color:white;
+  height:650px;
+  box-shadow:5px 5px grey;
+  border-radius: 10px;
+}
+
+.register .card .title p
+
+{
+	color: grey;
+	font-weight: 300;
+	padding: 20px 16px;
+}
+
+.FormBx .inputBx input ,select
+
+{
+	margin-left: 15px;
+	width: 50%;
+	padding: 10px 20px;
+	outline: none;
+	font-weight: 400;
+	border: 1px solid #607d8b;
+	font-size: 12px;
+	letter-spacing: 1px;
+	color: #607d8b;
+	background: transparent;
+	border-radius: 5px;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left {
+  flex: 33%; 
+	padding : 0 10px;
+}
+
+.middle {
+  flex: 33%; 
+
+}
+
+.right
+{
+	flex:33%;
+}
+
+.right input[type="submit"]
+{
+	float: right;
+	background-color : #FDE992;
+	border: none;
+	padding: 12px 28px;
+	border-radius: 8px;
+	margin-right: 5px;
+	
+	color: grey;
+}
+
+.right input[type="submit"]:hover
+{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	transition-duration: 0.4s;
+
+}
+
+.middle .inputBx1 input[type="button"]
+{
+	
+	background-color : #FDE992;
+	border: none;
+	padding: 5px 20px;
+	border-radius: 8px;
+	margin-left: 15px;
+	margin-top: 5px;
+	color: grey;
+}
+
+.middle .inputBx1 input[type="button"]:hover
+{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	transition-duration: 0.4s;
+
+}
+
+.middle .inputBx1 p
+{
+	margin-left: 15px;
+}
+
+
+.FormBx .inputBx span
+{
+	margin:15px;
+}
+
+.register .msg
+{
+	background: #F2DEDE;
+	color: #A94442;
+	padding: 10px;
+	width:95%;
+	border-radius: 5px;
+}	
+
+
+/* History */
+
+.register .card input[name="search_text"]
+{
+	width: 25%;
+	padding: 10px;
+	font-size: 17px;
+	border: 1px solid grey;
+	background: #f1f1f1;
+	border-radius: 8px;
+	margin-left: 35%;
+	margin-top: 20px;
+}
+
+
+/*view_detail Part*/
+
+.overview1 .inside1
+{
+  margin-top : 10px;
+  margin-left: 20px;
+  background-color:white;
+  width:600px;
+  height:550px;
+  box-shadow:5px 5px grey;
+  border-radius: 10px;
+}
+
+.overview1 .side1 .inside1 .table 
+{
+	margin-left:15px;
+}
+
+.overview1 .side1 .inside1 .table a
+{
+	text-decoration: none;
+}
+
+.overview1 .side2 .inside1 .table 
+{
+	margin-left:15px;
+}
+
+.overview1 h2
+{
+	color: #607d8b;
+	font-weight: 600;
+	font-size: 1.5em;
+	margin-left: 20px;
+	display: inline-block;
+	letter-spacing: 1px;
+}
+
+
+
+.table1 {
+  border-collapse: collapse;
+} 
+
+.table1 {
+  width: 100%;  
+  text-align: center;
+  
+}
+
+.overview1 .inside1 .inputBx input[type="submit"]
+{
+	background-color : #FDE992;
+	border: none;
+	padding: 6px 28px;
+	border-radius: 8px;
+	color: grey;
+}
+
+
